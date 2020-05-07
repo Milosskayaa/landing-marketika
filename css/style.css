@@ -329,6 +329,34 @@ body {
   font-weight: 300;
   color: #6c6c6c; }
 
+.btn-main {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 16px 20px;
+  font-size: 18px;
+  outline: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  border: none;
+  background: linear-gradient(to right, #FE985B, #FE4FA7);
+  color: white; }
+
+.btn-secondary {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 16px 20px;
+  font-size: 18px;
+  outline: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  border: 1px solid #414141;
+  background: white;
+  color: #414141; }
+
 .section-header {
   color: white;
   background: url("../image/bg-header.png") no-repeat 50% 50%;
@@ -390,16 +418,6 @@ body {
         width: 100%; }
         .section-header-wrapper__form-input input::placeholder {
           color: white; }
-    .section-header-wrapper__form-button button {
-      font-family: 'Montserrat', sans-serif;
-      margin: 0;
-      padding: 16px 20px;
-      font-size: 18px;
-      border: none;
-      background: linear-gradient(to right, #FE985B, #FE4FA7);
-      outline: none;
-      border-radius: 4px;
-      color: white; }
 
 .section-promo {
   padding-top: 117px;
@@ -452,3 +470,121 @@ body {
     .section-founder__content-post {
       font-size: 20px;
       line-height: 29px; }
+
+.section-plans {
+  padding-top: 117px;
+  padding-top: 117px;
+  text-align: center; }
+  .section-plans__title {
+    font-size: 36px;
+    line-height: 51px;
+    font-weight: bold; }
+  .section-plans__subtitle {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    margin-bottom: 110px;
+    width: 50%;
+    margin: 0 auto 80px; }
+  .section-plans__list {
+    display: flex;
+    justify-content: center; }
+    .section-plans__list-item {
+      flex-basis: 370px;
+      padding: 52px 44px; }
+      .section-plans__list-item-title {
+        font-size: 14px;
+        line-height: 17px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 26px; }
+      .section-plans__list-item-price {
+        margin-bottom: 28px; }
+        .section-plans__list-item-price .prefix {
+          color: #FE4FA7;
+          font-size: 72px;
+          line-height: 86px;
+          font-weight: bold; }
+        .section-plans__list-item-price .postfix {
+          font-size: 14px;
+          line-height: 17px;
+          font-weight: bold; }
+      .section-plans__list-item-description {
+        font-size: 16px;
+        line-height: 28px;
+        font-weight: 300;
+        margin-bottom: 50px; }
+      .section-plans__list-item.active {
+        background-color: #F6FAFD; }
+      .section-plans__list-item .btn-main {
+        padding: 16px 30px; }
+      .section-plans__list-item .btn-secondary {
+        padding: 16px 30px; }
+
+.section-free {
+  text-align: center;
+  color: white;
+  background: linear-gradient(to right, #FE985B, #FE4FA7);
+  padding-top: 120px;
+  padding-bottom: 120px;
+  margin-top: 150px; }
+  .section-free__title {
+    font-size: 55px;
+    line-height: 60px;
+    font-weight: bold;
+    margin-bottom: 26px; }
+  .section-free__description {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    width: 50%;
+    margin: 0 auto 40px; }
+  .section-free .btn-secondary {
+    border: none;
+    padding: 16px 30px; }
+
+.section-footer {
+  padding-top: 86px;
+  padding-bottom: 86px; }
+  .section-footer__logo {
+    text-align: center;
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: bold;
+    margin-bottom: 29px; }
+  .section-footer__nav {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 75px;
+    padding: 0;
+    list-style: none; }
+    .section-footer__nav li + li {
+      margin-left: 60px; }
+    .section-footer__nav li a {
+      font-size: 14px;
+      line-height: 20px;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: #464646;
+      text-decoration: none; }
+      .section-footer__nav li a.active {
+        color: #FE50A6; }
+  .section-footer__copyright_and_links {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    line-height: 18px;
+    width: 80%;
+    margin: 0 auto; }
+
+.helper-links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex; }
+  .helper-links li + li {
+    margin-left: 20px; }
+  .helper-links li a {
+    color: #464646;
+    text-decoration: none; }
