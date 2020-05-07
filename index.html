@@ -25,7 +25,7 @@
                             <input type="text" placeholder="Your Email">
                         </div>
                         <div class="section-header-wrapper__form-button">
-                            <button>Get Started</button>
+                            <button class="btn-main">Get Started</button>
                         </div>
                     </div>
                 </div>
@@ -107,12 +107,20 @@
             <div class="section-plans__title">Choose your suitable plans</div>
             <div class="section-plans__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
             <div class="section-plans__list">
-                <div class="section-plans__list-item">
+                <div class="section-plans__list-item active">
                     <div class="section-plans__list-item-title">FREE</div>
-                    <div class="section-plans__list-item-price">$0 /mo</div>
+                    <div class="section-plans__list-item-price"><span class="prefix">$0</span> <span class="postfix">/mo</span></div>
                     <div class="section-plans__list-item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
                     <div class="section-plans__list-item-button">
-                        <a href="#">Get Started</a>
+                        <a href="#" class="btn-main">Get Started</a>
+                    </div>
+                </div>
+                <div class="section-plans__list-item">
+                    <div class="section-plans__list-item-title">PREMIUM</div>
+                    <div class="section-plans__list-item-price"><span class="prefix">$39</span> <span class="postfix">/mo</span></div>
+                    <div class="section-plans__list-item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
+                    <div class="section-plans__list-item-button">
+                        <a href="#" class="btn-secondary">Get Started</a>
                     </div>
                 </div>
             </div>
@@ -123,7 +131,11 @@
     <!-- Free -->
     <section class="section-free section-outer">
         <div class="section-inner">
-            section-free
+           <div class="section-free__title">It’s free, Get started today</div> 
+           <div class="section-free__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div> 
+           <div class="section-free__button">
+                <a href="#" class="btn-secondary">Get Started</a>
+           </div> 
         </div>
     </section>
     <!-- / Free -->
@@ -131,8 +143,25 @@
     <!-- Footer-->
     <section class="section-footer section-outer">
         <div class="section-inner">
-            section-footer
-        </div>
+            <div class="section-footer__logo">Marketika</div>
+            <ul class="section-footer__nav">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#" class="active">Services</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+            <div class="section-footer__copyright_and_links">
+                <div class="section-footer__copyright_and_links-copyright">Copyright © Sepra 2018 All Right Resereved</div>
+                <div class="section-footer__copyright_and_links-links">
+                    <ul class="helper-links">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms Of Services</a></li>
+                        <li><a href="#">Security</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>  
     </section>
     <!-- / Footer -->
 </body>
