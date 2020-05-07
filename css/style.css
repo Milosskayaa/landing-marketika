@@ -430,3 +430,25 @@ body {
   text-align: center; }
   .section-promo-2 .description-item + .description-item {
     margin-left: 40px; }
+
+.section-founder {
+  background-color: #F6FAFD;
+  padding-top: 34px; }
+  .section-founder .section-inner {
+    display: flex; }
+  .section-founder__img {
+    align-self: flex-end; }
+  .section-founder__content {
+    align-self: center;
+    padding: 50px; }
+    .section-founder__content-text {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 24px;
+      line-height: 40px; }
+    .section-founder__content-name {
+      font-size: 24px;
+      line-height: 29px;
+      font-weight: bold; }
+    .section-founder__content-post {
+      font-size: 20px;
+      line-height: 29px; }
